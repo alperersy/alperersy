@@ -1,4 +1,4 @@
-<h1 align="center">Alper Ersoy | Cybersecurity Researcher</h1>
+<h1 align="center">Alper Ersoy</h1>
 
 ###
 
