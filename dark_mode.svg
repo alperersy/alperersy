@@ -38,7 +38,7 @@ text, tspan {white-space: pre;}
 <tspan x="15" y="390">$$$$$$$$$$$@BYvXQOZOOOQYccUW@$$$$$$$$$$</tspan>
 <tspan x="15" y="410">$$$$$$$$$$@@@UUzuXUYXzxnXLCb@@$$$$$$$$$</tspan>
 <tspan x="15" y="430">$$$$$$$$@@*ZqXCCJXcvvXULQ0LYdM%@@$$$$$$</tspan>
-<tspan x="15" y="450">$$@@@@%&amp;*ZUxcYCQQQQLLQ00O0LJzwZwM8%</tspan>
+<tspan x="15" y="450">$$@@@@%&amp;*ZUxcYCQQQQLLQ00O0LJzwZwM8%$$$$</tspan>
 <tspan x="15" y="470">@@@*qZZZmwqCJLQQ0ZZZZOOZO0QOppqwqmOmp#@</tspan>
 <tspan x="15" y="490">dqqqqqqqpdddpwZOQZZZZZZmwpdbbdpdbbdwZmw</tspan>
 <tspan x="15" y="510">dbbbbbbbbbbkkkkkbddddbkhhhhkkbbbbbbhbpq</tspan>
@@ -56,6 +56,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="210" class="cc">. </tspan>
 <tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">Computer Vision, NLP, Robotics</tspan>
 <tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Hardware</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">hate.</tspan>
+<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Life</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Everything about Nature</tspan>
 <tspan x="390" y="310">- Contact</tspan> -——————————————————————————————————————————————-—-
 <tspan x="390" y="330" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Personal</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">alperchess1@gmail.com</tspan>
 <tspan x="390" y="390" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">Alper Ersoy</tspan>
