@@ -17,31 +17,31 @@ text, tspan {white-space: pre;}
 </style>
 <rect width="985px" height="530px" fill="#161b22" rx="15"/>
 <text x="15" y="30" fill="#c9d1d9" class="ascii">
-<tspan x="15" y="30">$$$$$$$$$$$$$$$$$$@@@@@@$@@$$$$$$$$$$$$$$$$$$</tspan>
-<tspan x="15" y="50">$$$$$$$$$$$$$@@B&amp;hq0LUYQmdw&amp;@@@$$$$$$$$$$$$$$</tspan>
-<tspan x="15" y="70">$$$$$$$$$$$$@&amp;x;::;;;;I,":!I_/LB@$$$$$$$$$$$$</tspan>
-<tspan x="15" y="90">$$$$$$$$$$@d+"^":,:::I;;::IIIlI_b@$$$$$$$$$$$</tspan>
-<tspan x="15" y="110">$$$$$$$$$@X"`^,;;;lI;::,"^^^"",^lcB$$$$$$$$$$</tspan>
-<tspan x="15" y="130">$$$$$$$$@d,:I;;;;,:l,""^^```^"^`^:%@$$$$$$$$$</tspan>
-<tspan x="15" y="150">$$$$$$$$B1:;I!_---~~_~&lt;~~&lt;~il;^^^^fB$$$$$$$$$</tspan>
-<tspan x="15" y="170">$$$$$$$$@{;;icCQ0ZmwwwmmmZQCYuI`":Y@$$$$$$$$$</tspan>
-<tspan x="15" y="190">$$$$$$$$@h;:_zC0OwwwwwwqqmOLJU)":,w$$$$$$$$$$</tspan>
-<tspan x="15" y="210">$$$$$$$$$%i,1cYQOmwwwwwwmZOQJUn,,IB$$$$$$$$$$</tspan>
-<tspan x="15" y="230">$$$$$$$$$@x"tzxjjxYOwqwOXnnucYxI,\@$$$$$$$$$$</tspan>
-<tspan x="15" y="250">$$$$$$$$$@Mi(vnux/jv0m0cxfuurcu:~&amp;@$$$$$$$$$$</tspan>
-<tspan x="15" y="270">$$$$$$$$$@au(UYncuXXUOJXcxujzCc_J@$$$$$$$$$$$</tspan>
-<tspan x="15" y="290">$$$$$$$$$@%c)ULQ000CUOCCQQQQQLv\a@$$$$$$$$$$$</tspan>
-<tspan x="15" y="310">$$$$$$$$$$@#UzJ0mZLYJZLYL0ZOLUc0B@$$$$$$$$$$$</tspan>
-<tspan x="15" y="330">$$$$$$$$$$@@BXYLOLLUYUUULCQQJXp@@$$$$$$$$$$$$</tspan>
-<tspan x="15" y="350">$$$$$$$$$$$$@hzJ0LcvzXXcvUOLUUB@$$$$$$$$$$$$$</tspan>
-<tspan x="15" y="370">$$$$$$$$$$$$$@mXCQLLCJCLL0LUcW@$$$$$$$$$$$$$$</tspan>
-<tspan x="15" y="390">$$$$$$$$$$$$$@BYvXQOZOOOQYccUW@$$$$$$$$$$$$$$</tspan>
-<tspan x="15" y="410">$$$$$$$$$$$$@@@UUzuXUYXzxnXLCb@@$$$$$$$$$$$$$</tspan>
-<tspan x="15" y="430">$$$$$$$$$$@@*ZqXCCJXcvvXULQ0LYdM%@@$$$$$$$$$$</tspan>
-<tspan x="15" y="450">$$$$@@@@%&amp;*ZUxcYCQQQQLLQ00O0LJzwZwM8%@@@$$$$$</tspan>
-<tspan x="15" y="470">$$@@@*qZZZmwqCJLQQ0ZZZZOOZO0QOppqwqmOmp#@@@$$</tspan>
-<tspan x="15" y="490">WhdqqqqqqqpdddpwZOQZZZZZZmwpdbbdpdbbdwZmwqbWB</tspan>
-<tspan x="15" y="510">qpdbbbbbbbbbbkkkkkbddddbkhhhhkkbbbbbbhbpqqqwm</tspan>
+<tspan x="15" y="30">$$$$$$$$$$$$$$$$@@@@@@$@@$$$$$$$$$$$$$$</tspan>
+<tspan x="15" y="50">$$$$$$$$$$$@@B&amp;hq0LUYQmdw&amp;@@@$$$$$$$$$$</tspan>
+<tspan x="15" y="70">$$$$$$$$$$@&amp;x;::;;;;I,":!I_/LB@$$$$$$$$</tspan>
+<tspan x="15" y="90">$$$$$$$$@d+"^":,:::I;;::IIIlI_b@$$$$$$$</tspan>
+<tspan x="15" y="110">$$$$$$$@X"`^,;;;lI;::,"^^^"",^lcB$$$$$$</tspan>
+<tspan x="15" y="130">$$$$$$@d,:I;;;;,:l,""^^```^"^`^:%@$$$$$</tspan>
+<tspan x="15" y="150">$$$$$$B1:;I!_---~~_~&lt;~~&lt;~il;^^^^fB$$$$$</tspan>
+<tspan x="15" y="170">$$$$$$@{;;icCQ0ZmwwwmmmZQCYuI`":Y@$$$$$</tspan>
+<tspan x="15" y="190">$$$$$$@h;:_zC0OwwwwwwqqmOLJU)":,w$$$$$$</tspan>
+<tspan x="15" y="210">$$$$$$$%i,1cYQOmwwwwwwmZOQJUn,,IB$$$$$$</tspan>
+<tspan x="15" y="230">$$$$$$$@x"tzxjjxYOwqwOXnnucYxI,\@$$$$$$</tspan>
+<tspan x="15" y="250">$$$$$$$@Mi(vnux/jv0m0cxfuurcu:~&amp;@$$$$$$</tspan>
+<tspan x="15" y="270">$$$$$$$@au(UYncuXXUOJXcxujzCc_J@$$$$$$$</tspan>
+<tspan x="15" y="290">$$$$$$$@%c)ULQ000CUOCCQQQQQLv\a@$$$$$$$</tspan>
+<tspan x="15" y="310">$$$$$$$$@#UzJ0mZLYJZLYL0ZOLUc0B@$$$$$$$</tspan>
+<tspan x="15" y="330">$$$$$$$$@@BXYLOLLUYUUULCQQJXp@@$$$$$$$$</tspan>
+<tspan x="15" y="350">$$$$$$$$$$@hzJ0LcvzXXcvUOLUUB@$$$$$$$$$</tspan>
+<tspan x="15" y="370">$$$$$$$$$$$@mXCQLLCJCLL0LUcW@$$$$$$$$$$</tspan>
+<tspan x="15" y="390">$$$$$$$$$$$@BYvXQOZOOOQYccUW@$$$$$$$$$$</tspan>
+<tspan x="15" y="410">$$$$$$$$$$@@@UUzuXUYXzxnXLCb@@$$$$$$$$$</tspan>
+<tspan x="15" y="430">$$$$$$$$@@*ZqXCCJXcvvXULQ0LYdM%@@$$$$$$</tspan>
+<tspan x="15" y="450">$$@@@@%&amp;*ZUxcYCQQQQLLQ00O0LJzwZwM8%</tspan>
+<tspan x="15" y="470">@@@*qZZZmwqCJLQQ0ZZZZOOZO0QOppqwqmOmp#@</tspan>
+<tspan x="15" y="490">dqqqqqqqpdddpwZOQZZZZZZmwpdbbdpdbbdwZmw</tspan>
+<tspan x="15" y="510">dbbbbbbbbbbkkkkkbddddbkhhhhkkbbbbbbhbpq</tspan>
 </text>
 <text x="390" y="30" fill="#c9d1d9">
 <tspan x="390" y="30">alper@ersoy</tspan> -———————————————————————————————————————————-—-
