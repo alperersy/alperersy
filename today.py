@@ -323,7 +323,7 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     tree = etree.parse(filename)
     root = tree.getroot()
     justify_format(root, 'age_data', age_data, 49)
-    justify_format(root, 'commit_data', commit_data, 22)
+    justify_format(root, 'commit_data', commit_data, 16)
     justify_format(root, 'star_data', star_data, 14)
     justify_format(root, 'repo_data', repo_data, 6)
     justify_format(root, 'contrib_data', contrib_data)
@@ -373,6 +373,24 @@ def commit_counter(comment_size):
     for line in data:
         total_commits += int(line.split()[2])
     return total_commits
+
+
+def contributions_counter(acc_date):
+    """
+    Sums total GitHub contributions since account creation by querying
+    contributionsCollection in chunks of up to one year (the API's max range).
+    """
+    total = 0
+    start = datetime.datetime.strptime(acc_date, '%Y-%m-%dT%H:%M:%SZ')
+    now = datetime.datetime.utcnow()
+    cursor = start
+    while cursor < now:
+        chunk_end = min(cursor + relativedelta.relativedelta(years=1), now)
+        total += graph_commits(
+            cursor.strftime('%Y-%m-%dT%H:%M:%SZ'),
+            chunk_end.strftime('%Y-%m-%dT%H:%M:%SZ'))
+        cursor = chunk_end
+    return total
 
 
 def user_getter(username):
@@ -454,7 +472,7 @@ if __name__ == '__main__':
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
     formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
     
-    commit_data, commit_time = perf_counter(commit_counter, 7)
+    commit_data, commit_time = perf_counter(contributions_counter, acc_date)
     star_data, star_time = perf_counter(graph_repos_stars, 'stars', ['OWNER'])
     repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
