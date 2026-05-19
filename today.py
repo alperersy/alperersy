@@ -167,7 +167,7 @@ def loc_counter_one_repo(owner, repo_name, data, cache_comment, history, additio
             deletion_total += node['node']['deletions']
 
     if history['edges'] == [] or not history['pageInfo']['hasNextPage']:
-        return addition_total, 2300000+deletion_total, my_commits
+        return addition_total,deletion_total, my_commits
     else: return recursive_loc(owner, repo_name, data, cache_comment, addition_total, deletion_total, my_commits, history['pageInfo']['endCursor'])
 
 
