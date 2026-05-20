@@ -13,6 +13,7 @@ import hashlib
 HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME'] # 'Andrew6rant'
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
+DELETED_LOC_OFFSET = 2_000_000
 
 
 def daily_readme(birthday):
@@ -261,6 +262,16 @@ def cache_builder(edges, comment_size, force_cache, loc_add=0, loc_del=0):
     return [loc_add, loc_del, loc_add - loc_del, cached]
 
 
+def apply_loc_offsets(loc_data):
+    """
+    Adds fixed display-only LOC offsets without changing the cache totals.
+    """
+    loc_data = loc_data.copy()
+    loc_data[1] += DELETED_LOC_OFFSET
+    loc_data[2] = loc_data[0] - loc_data[1]
+    return loc_data
+
+
 def flush_cache(edges, filename, comment_size):
     """
     Wipes the cache file
@@ -471,6 +482,7 @@ if __name__ == '__main__':
     
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
     formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
+    total_loc = apply_loc_offsets(total_loc)
     
     commit_data, commit_time = perf_counter(contributions_counter, acc_date)
     star_data, star_time = perf_counter(graph_repos_stars, 'stars', ['OWNER'])
